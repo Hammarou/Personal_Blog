@@ -1,19 +1,32 @@
 # Personal Blog
 
+
 ## Description:
 
 -Greetings! 
 
--This is my modification to the JavaScript starter code initially provided in the assignment. I have not altered the original HTML and CSS languages provided.
+-The objective of this project was to build a two-page website where users can input and view blog posts. Achieving this goal required creating a landing page (where users are asked to complete a content form in which they can input their username), blog title, and blog content. Once the user submits this information, the data is stored and dynamically rendered on a subsequent webpage. If the user tries to submit a form without inputting all of the required information in the content form, they will be unable to do so. Instead, the user will be presented with an alert message prompting them to complete the form. 
 
--It is my intention to enable the intended user (an associate/manager handling employee payroll of a company) to view and manage employee payroll data. The user will be prompted to enter as many employees as they wish (they will be prompted to provide nominal background information about each employee, such as first and last names, and salary). From this, the user will be able to acquire a list of all the employees (along with their information) they have entered; as well as calculate the average employee salary.
+-To further enhance the UX of the website, I have inplemented a toggle to each webpage which gives the user the option of viewing/rendering the page in either dark or light mode.
 
 
 ## Installation
 
 -Code Source:
 
-The code for this project can be located in the script.js file located inside the Main folder. There you'll be able to inspect the code modifications, along with written comments to explain and clarify the mechanics of the code.
+The code for this project can be located in the following files and folders:
+
+-HTML:
+        index.html
+        
+
+
+
+
+
+
+
+the script.js file located inside the Main folder. There you'll be able to inspect the code modifications, along with written comments to explain and clarify the mechanics of the code.
 
 
 ## Usage
