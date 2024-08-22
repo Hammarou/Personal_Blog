@@ -1,0 +1,221 @@
+/* CODE IS INDEPENDENT OF MEDIA QUERIES */
+label, input, textarea
+{
+    display:flex;
+  
+}
+
+#box
+{
+    border: 3px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#container
+{
+    border: 3px solid black;
+   
+}
+
+#leftdiv
+{   
+    border-right: 3px solid black;
+    margin-right: 3px;
+  
+}
+
+
+#content
+{
+    border-left: 3px solid black;
+}
+
+#colorBtn
+{   
+    
+    border: none;
+    background-color: white;
+    
+}
+
+#text1
+{
+    position: relative;
+    left: 10%;
+    top:10%;
+    /* CREATE CIRCLE WITH COLOR IMAGE */
+    background-image: linear-gradient(rgb(236, 218, 184), orange, rgb(102, 75, 15));
+    width: 80%;
+    border:none;
+    border-radius: 50%;
+    height: 50%;
+    
+}
+
+#txtOne
+{   
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 21%;
+    bottom: 30%;
+    width: 50%;
+    text-align: center;  
+}
+
+.content-form
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#txtA
+{
+    font-family: Arial;
+}
+
+#btn
+{
+    background-color: black;
+    color: white;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+#btn:hover
+{
+    opacity: 0.75;
+}
+
+
+/* ACTIVATE CODE IF SCREEN IS LESS THAN 1080PX */
+@media screen and (max-width: 1080px)
+{
+    #container
+    {
+        display:flex;
+        
+    }
+    #container>div
+    {
+       border: 2px solid black;
+       width: 100%;
+       height: 1100px;
+    }
+
+    #txtOne
+    {       
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: relative;
+        left: 21%;
+        bottom: 30%;
+        width: 50%;
+        text-align: center;
+    
+    }
+
+    #text2
+    {
+        text-align: center;
+    }
+    form>input
+    {
+       
+        width: 100%;
+    }
+    form>textarea
+    {
+        
+        width: 100%;
+    }
+    
+    #btn
+    {
+        
+        text-align: center;
+        position: relative;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+
+    #txt2
+    {
+        position: relative;
+        left: 24%;
+        bottom: 30%;
+        width: 50%;
+        text-align: center;
+        font-size: 50px;
+    }
+    #data
+    {
+        position: relative;
+        top: 300px;
+       
+        
+    }
+}
+
+/* ACTIVATE CODE IF SECREEN HAS MIN WIDTH OF 1080PX */
+@media screen and (min-width: 1080px)
+{
+/* USING FLEXBOX */
+    #container
+    {
+        display:flex;   
+    }
+ /* ACCESS ELEMENT THAT HAS ID OF CONTAINER. 
+    THEN ACCESSES ALL THE DIVS INSIDE THE CONTAINER */
+    #container>div
+    {
+       border: 2px solid black;
+       width: 100%;
+       height: 1100px;
+    }
+    #text2
+    {
+        text-align: center;
+    }
+    /* GREATER THAN SIGN ACCESSES INNER OBJECTS
+        IN THE FORM. ANY ELEMENTS THAT HAS THE NAME OF
+        INPUT WILL HAVE A WIDTH OF 100%  */
+    form>input
+    {
+        
+        width: 100%;
+    }
+    form>textarea
+    {
+       
+        width: 100%;
+    }
+    
+    #btn
+    {
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #data
+    {
+        position: relative;
+        top: 300px;       
+    }   
+}
+
+
+#leftdiv {
+    border-right-width: 5px !important;
+}
+
+#content {
+    border-left-width: 5px !important;
+}

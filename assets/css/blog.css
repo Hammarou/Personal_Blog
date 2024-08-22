@@ -1,0 +1,119 @@
+/* USING FLEX PROPERTY
+    USING THE ROW DIRECTION TO DISPLAY ITEMS HORIZONTALLY */
+
+
+
+main div
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+p
+{
+    
+    display: flex;
+    margin-left:4px;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row
+   
+}
+
+.title
+{   
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-right: 100;
+    
+    
+}
+
+.controls{
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 500px;
+   
+}
+
+#backBtn
+{
+    background-color: black;
+    cursor: pointer;
+    
+}
+#btnText
+{
+    color: white;
+}
+
+#colorBtn
+{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#txt 
+{
+    font-weight: bold;
+}
+
+.hl
+{
+    border-top: 4px solid black;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+footer
+{
+   
+    font-size: 14px;
+    padding-left: 10px;
+    
+ 
+}
+
+.blogBox{
+    border: solid 2px black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;;
+    min-height: 100px;
+    justify-content: space-between;
+    
+    p{
+        margin: 0px;
+    }
+
+    p:first-child
+    {
+        font-weight: bold;
+        border-bottom: solid 1px black;;
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    p:nth-child(2)
+    {
+        padding: 10px;
+    }
+
+    p:nth-child(3)
+    {
+        font-style: italic;
+        
+    }
+}

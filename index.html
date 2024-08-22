@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- CREATE ELEMENTS WITH IDs TO BE ACCESS BY JAVA SCRIPT
+     AND CSS -->
+    <div id="box">
+        <button id="colorBtn">
+            🌟
+         </button>
+    </div>
+   <div id="container">
+        <div id="leftdiv">
+            <p id="text1">
+                <p id="txtOne">
+                    My First Blog
+                </p>
+            </p> 
+        </div>
+        <div id="content">
+            <div id="data">
+                <p id="text2">
+                    What's on your mind?
+                </p>
+                <!-- CREATE CONTENT FORM WHERE USER INPUT INFO  WILL GO TO blog.html WHEN SUBMIT BUTTON
+                 IS CLICKED -->
+                <form action="blog.html" class="content-form">
+                    <label for="name">Username</label><br>
+                    <input id="name" name="name" type="text"><br>
+                    <label for="title">Title</label><br>
+                    <input type="text" id="title" name="title"><br>
+                    <label for="txtA">Content</label><br>
+                    <textarea rows="10" name="txtA" id="txtA"></textarea><br>
+                    <input id="btn" type="submit">
+                </form>
+
+            </div>
+        </div>
+    </div> 
+  <button id="refresh">Refresh Local Storage</button> 
+     <!-- INCLUDED JAVA SCRIPT -->
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/form.js"></script>
+</body>
+</html>
