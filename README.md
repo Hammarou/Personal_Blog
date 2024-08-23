@@ -38,7 +38,7 @@ By scrolling through all listed files and folders you'll be able to view and ins
 
 ## Usage
 
-Please feel free to access the Github repository where all the requisite files and folders are located. Alternatively, to view the deployed application, please navigate to the deployed application webpage (URL link provided below). then access the JavaScript file located in the Develop folder.
+Please feel free to access the Github repository where all the requisite files and folders are located. Alternatively, to view the deployed application, please navigate to the deployed application webpage (URL link provided below).
 
 -The deployed webpage can be accessed at the following URL: https://hammarou.github.io/Personal_Blog/
 
