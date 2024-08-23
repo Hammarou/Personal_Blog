@@ -31,7 +31,7 @@ The code for this project can be located in the following files and folders:
 
 
 
-Notice: The CSS and Java Script folders is located within the parent assets folder.
+Notice: The CSS and Java Script folders are located within the parent assets folder.
 
 By scrolling through all listed files and folders you'll be able to view and inspect all code modifications, along with written comments to explain and clarify the mechanics of the code.
 
