@@ -7,7 +7,7 @@
 
 -The objective of this project was to build a two-page website where users can input and view blog posts. Achieving this goal required creating a landing page (where users are asked to complete a content form in which they can input their username), blog title, and blog content. Once the user submits this information, the data is stored and dynamically rendered on a subsequent webpage. If the user tries to submit a form without inputting all of the required information in the content form, they will be unable to do so. Instead, the user will be presented with an alert message prompting them to complete the form. 
 
--To further enhance the UX of the website, I have inplemented a toggle to each webpage which gives the user the option of viewing/rendering the page in either dark or light mode.
+-To further enhance the UX of the website, a toggle has been implemented to each webpage which gives the user the added option of viewing/rendering the page in either dark or light mode.
 
 
 ## Installation
@@ -42,7 +42,7 @@ Please feel free to access the Github repository where all the requisite files a
 
 -The deployed webpage can be accessed at the following URL: 
 
--The Github repo can be accessed at the following URL: 
+-The Github repo can be accessed at the following URL: https://github.com/Hammarou/Personal_Blog
 
 
 ## Credits
