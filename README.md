@@ -17,15 +17,15 @@
 The code for this project can be located in the following files and folders:
 
 * HTML:
-  index.html,    
-   blog.html
+  index.html,
+  blog.html
 
 * CSS: 
   style.css,
   blog.css
 
 * Java Script:
-  logic.js
+  logic.js,
   blog.js,
   form.js
 
