@@ -16,17 +16,24 @@
 
 The code for this project can be located in the following files and folders:
 
--HTML:
-        index.html
-        
+* HTML:
+        index.html,    
+        blog.html
+
+* CSS: 
+        style.css,
+        blog.css
+
+* Java Script:
+                logic.js
+                blog.js,
+                form.js
 
 
 
+Notice: The CSS folder is located within the parent assets folder.
 
-
-
-
-the script.js file located inside the Main folder. There you'll be able to inspect the code modifications, along with written comments to explain and clarify the mechanics of the code.
+By scrolling through all listed files and folders you'll be able to view and inspect all code modifications, along with written comments to explain and clarify the mechanics of the code.
 
 
 ## Usage

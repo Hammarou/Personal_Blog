@@ -1,7 +1,3 @@
-/* USING FLEX PROPERTY
-    USING THE ROW DIRECTION TO DISPLAY ITEMS HORIZONTALLY */
-
-
 
 main div
 {
@@ -19,8 +15,9 @@ p
 .header
 {
     display: flex;
-    flex-direction: row
-   
+    flex-direction: row;
+    margin-bottom: 5px;
+    justify-content: space-between;
 }
 
 .title
@@ -37,7 +34,7 @@ p
     justify-content: flex-end;
     flex-direction: row;
     gap: 10px;
-    margin-left: 500px;
+
    
 }
 

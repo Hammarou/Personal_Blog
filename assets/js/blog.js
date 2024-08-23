@@ -21,6 +21,7 @@ btn.addEventListener("click", function(){
             para[i].style.color = "white"
         }
         document.querySelector("#colorBtn").style.backgroundColor = "black";
+        document.querySelector(".title").style.color = "white";
 
         isColorChanged = true
     }
@@ -39,6 +40,7 @@ btn.addEventListener("click", function(){
             para[i].style.color = "black"
         }
         document.querySelector("#colorBtn").style.backgroundColor = "white";
+        document.querySelector(".title").style.color = "black";
 
           // IF BOOLEAN VARIABLE IS TRUE, SET IT TO FALSE
             isColorChanged = false
