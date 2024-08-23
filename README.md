@@ -47,10 +47,7 @@ Please feel free to access the Github repository where all the requisite files a
 
 ## Credits
 
--The starter code can be obtained at: -
-
-The Coding Bootcamp: 
-
+N/A
 
 ## License
 
