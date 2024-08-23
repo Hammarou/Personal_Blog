@@ -17,21 +17,21 @@
 The code for this project can be located in the following files and folders:
 
 * HTML:
-        index.html,    
-        blog.html
+  index.html,    
+   blog.html
 
 * CSS: 
-        style.css,
-        blog.css
+  style.css,
+  blog.css
 
 * Java Script:
-                logic.js
-                blog.js,
-                form.js
+  logic.js
+  blog.js,
+  form.js
 
 
 
-Notice: The CSS folder is located within the parent assets folder.
+Notice: The CSS and Java Script folders is located within the parent assets folder.
 
 By scrolling through all listed files and folders you'll be able to view and inspect all code modifications, along with written comments to explain and clarify the mechanics of the code.
 
@@ -40,7 +40,7 @@ By scrolling through all listed files and folders you'll be able to view and ins
 
 Please feel free to access the Github repository where all the requisite files and folders are located. Alternatively, to view the deployed application, please navigate to the deployed application webpage (URL link provided below). then access the JavaScript file located in the Develop folder.
 
--The deployed webpage can be accessed at the following URL: 
+-The deployed webpage can be accessed at the following URL: https://hammarou.github.io/Personal_Blog/
 
 -The Github repo can be accessed at the following URL: https://github.com/Hammarou/Personal_Blog
 
